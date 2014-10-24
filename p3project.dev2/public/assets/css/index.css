@@ -1,0 +1,309 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+* {
+	margin: 0;
+	padding: 0
+}
+html, body, .container {
+	min-height: 100%
+}
+
+/* Large screens ----------- */
+@media only screen and (min-width : 600px) {
+
+	/* Styles */
+	body {
+		font: 125% 'Open Sans', sans-serif;
+		margin: 0;
+		padding: 0;
+		color: #000;
+		background: #c98e40;
+		background-image: url(../images/Supreme_pizza.jpg)
+	}
+	.container {
+		width: 100%;
+		min-width: 600px;
+		text-align: center;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin-right: -50%;
+		transform: translate(-50%, -50%);
+	}
+	.titel {
+		position: absolute;
+		top: 50px;
+		color: #333;
+		width: 100%;
+		min-width: 600px;
+		height: 170px;
+		overflow: visible;
+		z-index: 50
+	}
+	.titel h1 {
+		font-size: 300%;
+		font-weight: normal;
+		font-weight: 500;
+		line-height: .58;
+		letter-spacing: -.035em;
+		text-indent: -.07em;
+		color: #fff;
+		text-shadow: 1px 2px 7px #fff, 1px 1px rgba(229,210,184,.8), -1px 0px 2px #995c17;
+		display: inline-block;
+		width: 600px;
+		margin-bottom: .2em
+	}
+	.titel p {
+		font-size: 100%;
+		font-style: italic;
+		color: #FFF2E5;
+		margin-top: .3em
+	}
+	.titel a:link, a:visited {
+		color: #DCBA89;
+		text-decoration: none;
+		border-bottom: 1px dashed #E2D0B5;
+		font-style: italic;
+		padding: 0 .17em 0;
+		border-bottom: 0;
+		border-radius: 4px
+	}
+	.box {
+		text-align: center;
+		background: #FFF2E5;
+		max-width: 600px;
+		margin: 200px auto 5em;
+		padding: 16px;
+		z-index: 40;
+		background: rgb(226,217,208,1);
+		filter:alpha(opacity=80);
+		border-radius: 10px;
+		opacity:.8;
+	}
+	.content {
+		background: transparent;
+		text-align: left;
+		padding: 5px 5px 10px 10px;
+		border-width: 2px;
+		border-style: dashed;
+		border-color: rgba(153,111,61,.6);
+		border-radius: 6px;
+		z-index: 50
+	}
+	p.italic {
+		font-size: 94%;
+		font-style: italic;
+		letter-spacing: .01em;
+		line-height: 1.45;
+		margin: 0 .25em .75em 7em
+	}
+	input, select {
+		font-family: 'Open Sans', sans-serif;
+		font-size: 1.0em;
+		text-align: center;
+		margin: 0 .15em 0 0;
+		padding: 0;
+		border-width: 0;
+		border-color: #000
+	}
+	a img {
+		border: none
+	}
+	.footer {
+		padding: 15px 0 25px;
+		text-align: center;
+		color: #ebe3da;
+		color: #fff;
+		position: fixed;
+		width: 100%;
+		height: 0;
+		z-index: 0;
+	}
+	.footer p {
+		font-size: 100%;
+		line-height: 1.1;
+		letter-spacing: .05em;
+		color: #FFF;
+		margin-bottom: .5em;
+		text-shadow: 0px 0px 4px #000
+	}
+	.footer a {
+		font-weight: 500;
+		text-decoration:none;
+		color: #FFF2E5;
+		background: rgba(89,60,18,.7);
+		padding: .1em .5em .2em;
+		margin: 0 .25em;
+		border-bottom: 0;
+		border-radius: 6px
+	}
+	.footer a:hover {
+		color: #FFF;
+		background: rgba(89,60,18,1);
+		font-style: normal;
+		margin: 0 .13em;
+		padding: .25em .5em .35em
+	}
+	.count_toppings {
+		width: 30px;
+	}
+	.form_header {
+		height: 35px;
+		color: #EC8F48;
+		margin-top: 10px;
+	}
+	#slider-range-max {
+		width: 100px;
+		display: inline-block;
+		height: 14px;
+	}
+}
+/* Smartphones (portrait and landscape) ----------- */
+@media screen and (min-width: 320px) and (max-width: 600px) {
+
+	/* Styles */
+	body {
+		font: 100% 'Open Sans', sans-serif;
+		margin: 0;
+		padding: 0;
+		color: #000;
+		background: #c98e40;
+		background-image: url(../images/Supreme_pizza.jpg)
+	}
+	.container {
+		width: 100%;
+		min-width: 319px;
+		text-align: center;
+		position: absolute;
+	    top: 50%;
+	    left: 50%;
+	    margin-right: -50%;
+	    transform: translate(-50%, -50%);
+	}
+	.titel {
+		position: absolute;
+		top: 50px;
+		color: #333;
+		width: 100%;
+		min-width: 600px;
+		height: 170px;
+		overflow: visible;
+		z-index: 50
+	}
+	.titel h1 {
+		font-size: 110%;
+		font-weight: normal;
+		font-weight: 500;
+		line-height: .58;
+		letter-spacing: -.035em;
+		text-indent: -.07em;
+		color: #fff;
+		text-shadow: 1px 2px 7px #fff, 1px 1px rgba(229,210,184,.8), -1px 0px 2px #995c17;
+		display: inline-block;
+		width: 300px;
+		margin-bottom: .1em
+	}
+	.titel p {
+		font-size: 100%;
+		font-style: italic;
+		color: #FFF2E5;
+		margin-top: .015em
+	}
+	.titel a:link, a:visited {
+		color: #DCBA89;
+		text-decoration: none;
+		border-bottom: 1px dashed #E2D0B5;
+		font-style: italic;
+		padding: 0 .17em 0;
+		border-bottom: 0;
+		border-radius: 4px
+	}
+	.box {
+		text-align: center;
+		background: #FFF2E5;
+		max-width: 480px;
+		margin: 200px auto 5em;
+		padding: 16px;
+		z-index: 40;
+		background: rgb(226,217,208,1);
+		filter:alpha(opacity=80);
+		border-radius: 10px;
+		opacity:.8;
+	}
+	.content {
+		background: transparent;
+		text-align: left;
+		padding: 5px 5px 10px 10px;
+		border-width: 2px;
+		border-style: dashed;
+		border-color: rgba(153,111,61,.6);
+		border-radius: 6px;
+		z-index: 50
+	}
+	p.italic {
+		font-size: 94%;
+		font-style: italic;
+		letter-spacing: .01em;
+		line-height: 1.45;
+		margin: 0 .25em .75em 7em
+	}
+	input, select {
+		font-family: 'Open Sans', sans-serif;
+		font-size: 1.0em;
+		text-align: center;
+		margin: 0 .15em 0 0;
+		padding: 0;
+		border-width: 0;
+		border-color: #000
+	}
+	a img {
+		border: none
+	}
+	.footer {
+		padding: 15px 0 25px;
+		text-align: center;
+		color: #ebe3da;
+		color: #fff;
+		position: fixed;
+		width: 100%;
+		height: 0;
+		z-index: 0;
+	}
+	.footer p {
+		font-size: 100%;
+		line-height: 1.1;
+		letter-spacing: .05em;
+		color: #FFF;
+		margin-bottom: .5em;
+		text-shadow: 0px 0px 4px #000
+	}
+	.footer a {
+		font-weight: 500;
+		text-decoration:none;
+		color: #FFF2E5;
+		background: rgba(89,60,18,.7);
+		padding: .1em .5em .2em;
+		margin: 0 .25em;
+		border-bottom: 0;
+		border-radius: 6px
+	}
+	.footer a:hover {
+		color: #FFF;
+		background: rgba(89,60,18,1);
+		font-style: normal;
+		margin: 0 .13em;
+		padding: .25em .5em .35em
+	}
+	.count_toppings {
+		width: 30px;
+	}
+	.form_header {
+		height: 35px;
+		color: #EC8F48;
+		margin-top: 10px;
+	}
+	#slider-range-max {
+		width: 100px;
+		display: inline-block;
+		height: 14px;
+	}
+}
