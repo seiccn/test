@@ -1,25 +1,44 @@
-## Laravel PHP Framework
+Submission of P3 by Stephanie Ness:
 
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/downloads.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, and caching.
+    Live URL of the project. http://178.62.220.110/p3project.dev/public/
+    Description of the project (2-3+ sentences).
+    My project is a pizza calculator that generates pizza poems and also generates users. You may use the project to generate a random user or a own pizza creation and a pem for the pizza for your client. 
+    Demo information: If you attend your section to do an in-person demo, make a note of this. If you opt to do the Jing screencast demo, include the link here.
 
-Laravel aims to make the development process a pleasing one for the developer without sacrificing application functionality. Happy developers make the best code. To this end, we've attempted to combine the very best of what we have seen in other web frameworks, including frameworks implemented in other languages, such as Ruby on Rails, ASP.NET MVC, and Sinatra.
+    Any details the instructor or TA needs to know, for example, test credentials.
+    A list of any plugins, libraries, packages or outside code used in the project. See Student Responsibilities for more details on avoiding code plagiarism.
+    I wrote everything by myself to be on the safe side. 
 
-Laravel is accessible, yet powerful, providing powerful tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
 
-## Official Documentation
 
-Documentation for the entire framework can be found on the [Laravel website](http://laravel.com/docs).
 
-### Contributing To Laravel
 
-**All issues and pull requests should be filed on the [laravel/framework](http://github.com/laravel/framework) repository.**
+Complete README.md file.
+	
 
-### License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+Guidelines and where I implemented them:
+1 pts
+Site is accessible online: The site is accessible at
+http://178.62.220.110/p3project.dev/public/
+	
+	
+2 pts
+Demo. Please have a look at
+In case you do not like my demo, please feel free to request a second one. Due to the file size, I will have to limit myself to around 2:30min. Everything is commented.
+	
+	
+2 pts
+Site generates lorem ipsum text. In order to do something nice and really useful, the site allows you to generate a pizza poem. My poems are funny check them out!
+	
+	
+5 pts
+Site generates random users. My site generates random users and it also generates random pizza.
+	
+	
+5 pts
+Adjustments
+	
+	
+0 pts
